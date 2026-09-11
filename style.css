@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imagem/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+}
+
+nav>a:hover{
+    color: #A40F0F;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section1{
+    margin-right: 10px;
+}
+
+.section2{
+    margin-left: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: aliceblue;
+    margin: 20px;
+}
+
+
+
+.button01{
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: larger;
+    transform: skew(-10deg);
+    border: 2px solid #A40F0F;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+}
+
+.button01:hover{
+    background-color: #A40F0F;
+}
+
+.contribuiçoes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco1{
+    background-image: url(imagem/bloco01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 300px;
+}
+
+.bloco2{
+    background-image: url(imagem/bloco02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+
